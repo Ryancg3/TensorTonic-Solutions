@@ -7,7 +7,5 @@ def sigmoid(x: list | float) -> np.ndarray | float:
 
     
     # Write code here
-    if isinstance(x, int):
-        return 1/(1+ np.exp(-x))
-    x = np.asarray(x)
-    return [1/(1+ np.exp(-i)) for i in x ]
+    x = np.asarray(x, dtype=float)
+    return 1/(1+ np.exp(-x))
