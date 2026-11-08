@@ -1,0 +1,1 @@
+not the best solution as it only check one value back. but i could be distorting all the way back. test arent robust enough for this.
