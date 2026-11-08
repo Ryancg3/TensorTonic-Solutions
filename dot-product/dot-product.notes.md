@@ -1,0 +1,1 @@
+you can use the masic multiplications such as np.sum and np.mult, but it is ideal to use inbuilt functions that combine such work and not recreate them. for example np.dot.
