@@ -1,0 +1,2 @@
+np.split will split you matrix into sections. def split into number of rows, and set split to be per row.
+h stack is for horizontal stack for i can add array of array of the same dims, thus in our case keeping the number of rows in tacs add putting columns together. like adding a column in a dataframe.
