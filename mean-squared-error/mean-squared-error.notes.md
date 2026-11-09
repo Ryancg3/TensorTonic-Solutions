@@ -1,0 +1,1 @@
+remember: use the built in function (np.mean). even if follow the formula shown above can be step by step. efficiency!
