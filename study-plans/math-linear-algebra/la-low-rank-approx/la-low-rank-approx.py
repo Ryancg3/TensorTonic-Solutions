@@ -5,6 +5,6 @@ def low_rank_approximation(A: list, r: int) -> np.ndarray:
     Returns the best rank-r float64 approximation.
     """
     A = np.asarray(A, dtype=float)
-    U, s, V = np.linalg.svd(A)
+    U, s, Vt = np.linalg.svd(A, full_matrices=False)
 
-    return U[:, :r] @ np.diag(s[:r]) @ V[:r,:]
+    return U[:, :r] @ np.diag(s[:r]) @ Vt[:r,:]
