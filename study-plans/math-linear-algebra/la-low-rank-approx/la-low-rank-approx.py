@@ -7,4 +7,4 @@ def low_rank_approximation(A: list, r: int) -> np.ndarray:
     A = np.asarray(A, dtype=float)
     U, s, V = np.linalg.svd(A)
 
-    return U[:, :r] @ np.diag(s[:r]) @ V.T[:r,:]
+    return U[:, :r] @ np.diag(s[:r]) @ V[:r,:]
